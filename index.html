@@ -1,222 +1,284 @@
 <!DOCTYPE html>
+
+<!-- Base on https://www.w3schools.com/w3css/w3css_templates.asp "Screen 50/50 Template" Template -->
 <html>
-  <head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <body class="w3-content" style="max-width:1300px">
 
-    <title>My Profile</title>
-    <meta charset="UTF-8">
+<!-- First Grid: Logo & Personal Information -->
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:800px">
+    <div class="w3-padding-64">
+      <h1>My Logo</h1>
+      <img src="Swindon_Town_FC_logo.png" alt="">
+    </div>
+    <div class="w3-padding-64">
+      <!-- BLOCK 1 -->
+      <a href="#" class="w3-button w3-black w3-block w3-hover-blue-grey w3-padding-16">Personal Information</a>
+      <!-- BLOCK 2 -->
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-teal w3-padding-16">Interest in Info. Tech.</a>
+      <a href="#work" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Ideal Job</a>
+      <!-- BLOCK 3 -->
+      <a href="#project" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Project</a>
+      <a href="#project" class="w3-button w3-black w3-block w3-hover-dark-grey w3-padding-16">Links to Personal Interest</a>
+      <!-- BLOCK 4 -->
+      <a href="#profile" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Personal Profile</a>
+      <a href="#profile" class="w3-button w3-black w3-block w3-hover-brown w3-padding-16">Contact</a>
 
-    <style type="text/css">
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:800px">
+    <div class="w3-padding-64 w3-center">
+      <h2>Personal Information </h2>
 
-    .mylinks li{
-        float:left;   /* Fit all your links nicely in one line*/
-        margin:0 10px;
-    }
-    .mylinks a{
-       color:black; /* fancy red color for your links*/
-    }
-    </style>
+      <!--<img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%"> -->
+      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="(abridged)" style="width:50%">
 
-  </head>
+      <!--<div class="w3-left-align w3-padding-large"> -->
+        <div class="w3-padding-64 w3-center">
+        <p>I was born in England and emigrated to Australia as a child in 1964.
+          I have duel citizenship (Australian & British), permanent residence and no legal impairments to my employment.
+          I have been married for over 40 years, and my wife and I have one child.</p>
+        <p>At high school I enjoyed the Science subjects over the Arts Subjects, being especially strong in Mathematics.
+        <p>I became a member of what is now the Institute of Public Accountants in 1979.
+          I'm current studying Computre Science at RMIT</p>
+        <p>Besides the family, my great love is my home-town football club, the mighty Swindon Town Football Club,
+          who are nicknamed the “Robins” because of their red shirts. They will always be in my heart.</p>
+        <!--<p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid: Interest in IT and Job -->
+<div class="w3-row" id="work">
+  <!--<div class="w3-half w3-light-grey w3-left" style="min-height:600px" id="work">-->
+  <div class="w3-half w3-light-grey w3-center" style="min-height:650px" style="max-height:650px">
+    <div class="w3-padding-64">
+      <h2>Interest in Information Technology</h2>
+
+      <p>My main interest is computer programming.</<br>
+      This was sparked while working in the Finance Department of ZZZ.
+      I subsequently became involved in programming using the following programs:</p><br>
+
+      <p><u>PC(self taught)</u><br>
+      Lotus1-2-3 and Microsoft Office.<br>
+      I was the first person at ZZZ to appreciate the macro programming ability of 123 and especially Excel(VBA).</p><br>
+
+      <p><u>MainFrame(ISPF/PDF)</u><br>
+      Mainly SAS plus SAP.<br>
+      SAS was used for most of Finance’s programs until SAP was installed.
+      With SAP, Finance require no programming often data was often downloaded directly into Excel and
+      manipulated by VBA programs.</p>
+
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-half">
+        <!--<img src="/w3images/coffee.jpg" style="width:100%">-->
+      </div>
+      <div class="w3-half">
+        <!--<img src="/w3images/workbench.jpg" style="width:100%">-->
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <!--<img src="/w3images/workbench.jpg" style="width:100%">-->
+      </div>
+      <div class="w3-half">
+        <!--<img src="/w3images/coffee.jpg" style="width:100%">-->
+      </div>
+    </div>
+
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <!--<img src="/w3images/sound.jpg" style="width:100%">-->
+      </div>
+      <div class="w3-half">
+        <!--<img src="/w3images/workbench.jpg" style="width:100%">-->
+      </div>
+    </div><br>
+
+  </div>
+  <!--<div class="w3-half w3-indigo w3-container" style="min-height:300px" id="job">-->
+  <div class="w3-half w3-indigo w3-container" style="min-height:650px" style="max-height:650px"id="job">
+    <div class="w3-padding-64 w3-center">
+      <h2>My Ideal Job</h2>
+      <!--<p>A draft from my CV</p>-->
+      <div class="w3-container w3-responsive">
+        <!--
+        <table class="w3-table">
+          <tr>
+            <th>Year</th>
+            <th>Title</th>
+            <th>Where</th>
+          </tr>
+          <tr class="w3-white">
+            <td>2012-2016</td>
+            <td>The rest is history..</td>
+            <td>Lorem ipsum</td>
+          </tr>
+          <tr>
+            <td>2009-2012</td>
+            <td>Started my own company</td>
+            <td>My Garage</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2008-2009</td>
+            <td>Started working for Lorem</td>
+            <td>London, UK</td>
+          </tr>
+          <tr>
+            <td>2005-2008</td>
+            <td>Degree in Bachelor of Design</td>
+            <td>Harvard, USA</td>
+          </tr>
+          <tr class="w3-white">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+          <tr class="w3-hide-medium">
+            <td>2002-2005</td>
+            <td>Degree in Bachelor of Business</td>
+            <td>RMIT University, Melbourne, Australia</td>
+          </tr>
+        </table>
+      -->
+        <p>I'm happist in a position involving system analyst and computer programming.<br><br>
+          Data appears to be critical these days so reponsability for management of data-bases (own or clients),
+          writing schema and reports plus responsibility for security sounds a good mix for me.</p>
 
 
-  <body style="background-color:lightgray;">
-    <h1>MY PROFILE</h1>
+          I think I’m a mature and well rounded person who has knowledge about a lot of subjects.
+          In terms of teams I’m most likely not going to be at my best as the leader but I am a person who will learn
+          quickly and get the job done.
+          Further it will be done without histrionics and fanfares.
+          Generally a pat on the back and a ‘well done’ will suffice.
+          I would be prepared to lead a team if it’s concerned with subjects that I love. Like most people,
+          I will be a better team member when working on a project subject that I enjoy.
+      </div>
+    </div>
+  </div>
+</div>
 
-    <p style="margin-left:5%">
-    <br> <a href="#Section_01">A little bit about myself</a>
-    <br> <a href="#Section_02">Why I like IT</a>
-    <br> <a href="#Section_03" >My perfect job</a>
-    <br> <a href="#Section_04" >My profile tests</a>
-    <br> <a href="#Section_05" >My Project</a>
-    <br> <a href="#Section_06" >Summary of me</a>
-    <br> <a href="#Appendix" >Appendix</a>
-    <br> <a href="#References" >References</a>
 
-    <br><br>
 
-    <h2>Personal Data</h2>
-    <!-- Tthe following title is a tool tip only -->
-    <p title ="Section One text!" style="color:black;">
-      <TABLE BORDER>
-        <TR><TH>  Name:  </TH><TD>  Lewis Dean (Dean is my family name)  </TD></TR>
-        <TR><TH>  Student number  :</TH><TD>  s3666676  </TD></TR>
-        <TR><TH>  Student email address:  </TH><TD>  s3666676@student.rmit.edu.au  </TD></TR>
-      </TABLE>
-    <br><br>
 
-    </p>
 
-  </body>
+<!-- Third Grid: Project and Links to Favourite Sites and Interests -->
+<div class="w3-row" id="project">
+  <!--<div class="w3-half w3-light-grey w3-left" style="min-height:600px" id="work">-->
+  <div class="w3-half w3-light-blue w3-center" style="height:650px">
+    <div class="w3-padding-64">
 
-  <body>
-    <p id="Section_01">
-    <h2>A Little bit about me</h2>
+      <h2>My Latest Project</h2>
 
-    <p title ="A Little bit about me" style="color:black;">
-      <IMG SRC="IMG_2057.jpg" HEIGHT=300 WIDTH=250 ALT="moi" align="left">
-      <br>I was born in England in 1952 and emigrated to Australia as a child in 1964.
-      <br>I have duel citizenship, permanent residence and no legal impairments to my employment.
-      <br>Except for the one contained in the Australian Constitution preventing me from entering Federal Parliament (duel citizenship).  Therefore I will never be Prime Minister.</p>
-      <br>I've been married for over 40, and my wife and I have one child.
+      <br>Create a simple BINGO game.<br>
+      My electronic machine will be constructed with an Aeduino board plus sensors.<br>
+      LED’s will display the random numbers cumulative numbers chosen and machine status.<br><br>
+      The machine will also have a dice mode to simulate the throwing of either one or two die.
+      This can be a fun way of playing Backgammon or the board game Monopoly.
+
+    </div>
+
+    <div class="w3-row">
+      <div class="w3-half">
+        <!--<img src="/w3images/coffee.jpg" style="width:100%">-->
+      </div>
+      <div class="w3-half">
+        <!--<img src="/w3images/workbench.jpg" style="width:100%">-->
+      </div>
+    </div>
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <!--<img src="/w3images/workbench.jpg" style="width:100%">-->
+      </div>
+      <div class="w3-half">
+        <!--<img src="/w3images/coffee.jpg" style="width:100%">-->
+      </div>
+    </div>
+
+    <div class="w3-row w3-hide-small">
+      <div class="w3-half">
+        <!--<img src="/w3images/sound.jpg" style="width:100%">-->
+      </div>
+      <div class="w3-half">
+        <!--<img src="/w3images/workbench.jpg" style="width:100%">-->
+      </div>
+    </div><br>
+
+  </div>
+  <!--<div class="w3-half w3-indigo w3-container" style="min-height:300px" id="job">-->
+  <div class="w3-half w3-red w3-container" style="height:650px"id="job">
+    <div class="w3-padding-64 w3-center">
+      <div class="w3-container w3-responsive">
+
+      <h2><u>Links to Perssonal Likes</h2><br>
+
+      <h3>Swindon Town Football Club</h3></u>
+      Club page: https://www.swindontownfc.co.uk/<br>
+      Facebook: @SwindonTownFootballClub<br>
+      Twitter: @STFCcouk<br>
+      Online history of the club: http://www.swindon-town-fc.co.uk/
       <br>
-      <br>At high school I enjoyed the Science subjects over the Arts Subjects, being especially strong in Mathematics.
-      <br>I always obtained top marks in Maths. Out of the classroom, I was the goalkeeper in our school’s first ever football(soccer)
-      <br>success in 1968, winning the grand-final 5-1.
-      <br>I also represented the school in chess.
       <br>
-      <br>After leaving high school I studied accountancy at night. These studies were completed in 1979.
-      <br>My diploma allowed me to join what is now known as the Institute of Public Accountants where I remained a member until my retirement.
-      <br>The diploma also confirmed my Matriculation and allowed me to enrolled in Mathematics at Flinders University in 1980[1].
-      <br>Because of a liking for computer programming I included as many “computer subjects” as the course structure would allow.
-      <br>However, due to work pressures I was unable to complete the degree, but am now enrolled at RMIT to “finish the job”.
       <br>
-      <br>In 1974 I joined ZZZ Pty Ltd and remained with them until I retired. During this time I rose through
-      <br>the ranks in numerous accounting functions and at retirement I was Manager of Cost Accounting.
-      <br>Because ZZZ is involved in the motor vehicle industry, it is always subject to boom and bust cycles because of vagaries of the market.
-      <br>But the one constant is the camaraderie amongst its employees. Even today I have a weekly lunch with people I’ve worked and known for over 45 years.
-      <br>
-      <br>Besides the family, my great love is my home-town football club, the mighty Swindon Town Football Club, nicknamed the “Robins” because of their red shirts.
-      <br>Because of lack of funds most of our history has been in the lower leagues of the English football pyramid.
-      <br>Fortunately there have been 2 very big highlights.
-      <br>Firstly: beating the mighty Arsenal 3-1 in the 1969 Football League Cup Final at Wembley in front of 100,000 spectators(see photo below) and
-      <br>Secondly: playing in the Premier League in 1993-94, mixing it with the big teams like Manchester United and Liverpool etc.
-      <br>Currently (March 2021) “the Robins” are doing it tough, looking very likely to be relegated from the 3rd to the 4th tier for next season.
-      <br>But I will always support them, they will always be in my heart.
-      <br>
-      <p style="color:red;font-size:30px;">“they’re rubbish, but they're ‘my’ rubbish”
-      </p>
-  </body>
-
-  <body>
-    <br>
-    <p title ="A Little bit about me2" style="color:black;">
-      <IMG SRC="Wembley2.jpg" HEIGHT=300 WIDTH=250 ALT="moi" align="left">
-      <br>Swindon Town beats the mighty Arsenal 3-1 at Wembley in front of 100,000[1]
-      </p>
-      <br>Peter Downsborough, the Swindon goal-keeper, makes one
-      <br>of his many miraculous last gasp saves.
-
-    <div style="clear: both;"></div>
-    </p>
-    </body
+      <h3><u>Adelaide United Football Club</h3><u>
+      Their main page is: https://www.adelaideunited.com.au/
+      <h3> </h3><br>
+      <br><p>I know Facebook etc aren't here. I don't use them.<p>
+      <!--<p>A draft from my CV</p>-->
+      <!--<div class="w3-container w3-responsive">
+        <p>ZZZZZ</p>-->
+      </div>
+    </div>
+  </div>
+</div>
 
 
-  <body>
-    <p id="Section_02">
-    <h2>Why I like Information Technology</h2>
-    <p title ="Section three text!" style="color:black;">
 
-    <br>In the whole gamut of IT my main interest and liking is in computer programming.
-    <br>This was initially sparked while working in the Finance Department of ZZZ,
-    <br>looking over the shoulder of programming analysts from the IT Department who were pouring over their printout(s) of COBOL programs.
-    <br>Over time Finance became more independent of Corporate IT and started writing it’s own programs.
-    <br>I subsequently became involved in programming using the following:
-    <br>
-    <br><b><u>PC(self taught)</u></b>
-    <br>ADRS which was replaced by Lotus1-2-3 which in turn was replaced by Microsoft Office.
-    <br>I was the first person at ZZZ to appreciate the macro programming ability of 123 and especially Excel(VBA).
-    <br>
-    <br><b><u>MainFrame(ISPF/PDF)</u></b>
-    <br>Plancode which was replaced by SAS which in turn was replaced by SAP.
-    <br>SAS was used for most of Finance’s programs until SAP was installed. With SAP,
-    <br>Finance lost its ability (and also its need) for self written MainFrame programs,
-    <br>although SAP data was often downloaded directly into Excel and manipulated by VBA programs.
-    <br>
-    <br>In 1999 I successfully led the Finance team that converted 5,000 to 6,000 computer programs to be Y2K compliant.
-    <br>On Jan 1st 2000 all of these programs worked first time. So I know the team had done an excellent job.
-    <br>Finance finally developed it’s own “mini” IT Dept. to manage it’s own IT affairs.
-    <br>Including both software and hardware needs. I was Manager of this Dept. for 3 years.
-    <br>This was my most enjoyable job at ZZZ.
-    <br>
-    <br>Since retiring my IT experience has been limited. Restricted to messing about with my Mac.
-    <br>Manipulating photos using Lightroom, writing small programs using XOJO (a Visual Basic clone),
-    <br>and messing about with Arduino boards and sensors including writing simple “C++” programs in the Arduino IDE.
-    <br>
-    <br>The biggest driver to me studying IT is personal satisfaction. It gives me immense joy when presented with a programming
-    <br>problem and I ‘nut’ it out and solve it.As stated above, I now want to complete a degree I started in 1980.
-    <br>Unfortunately, I live 100kms from the nearest University, so studying by distance is my best and only option.
-    <br>I contacted Open University and they married up my wishes with this course.
-    <br>So far I have completed two units toward a degree. Introduction to Programming and Programming 1. (Refer Appendix 1).
-  </p>
 
-  </body>
 
-  <body>
-    <p id="Section_03">
-    <h2>What would be my perfect job</h2>
-    <p title ="Section four text!" style="color:black;">
 
-      <br>I recently searched the internet and found what I think to be my perfect job.
-      <br>SQL Analyst Programmer working at the company ResultsDirect[2].
-      <br>So what attracted me to the job?
-      <br>
-      <br>Looking at ResultsDirect’s Website they claim to: “Manage Enterprise Data, Design Digital Solutions and Sustain Digital Assets”.
-      <br>Couple this with the skill-set required ie. SQL/SQL Server and other relational data-base skills,
-      <br>ResultsDirect must manage clients data files including designing schema, producing reports and ensuring security.
-      <br>The job advertised is therefore for a manager to manage the maintenance, manipulation and security of the clients data files.
-      <br>
-      <br>Three essentials for my ideal job are a) will I enjoy the position? b) is the company right for me? and c) am I’m right for the company?
-      <br>If the answer to all three is yes then other factors like location, salary etc will fall into place.
-      <br>
-      <br><b><u>Will I enjoy the position?</u></b>
-      <br>As stated above my most enjoyable job at ZZZ was when I managed the Finance IT Section.
-      <br>This job seems to be very similar. It has a mix of programming and system analysis that I enjoy.
-      <br>
-      <br><b><u>Is the company right for me?</u></b>
-      <br><https://www.indeed.com/cmp/Results-Direct/reviews> gives 3 employees(?) opinions of he ResultsDirect company.
-      <br>On 16th March 2021 none of the 3 gave any negative comments. Whilst this is a small sample the “no negativity” is a good sign.
-      <br>Ultimately this question would be resolved during the interview process, after all the interview process is not just the company interviewing me
-      <br>but also me interviewing the company.
-      <br>
-      <br><b><u>Am I right for the company?</u></b>
-      <br>I seem to have knowledge and skills of the many requested. I’ve used SQL both at ZZZ and in depth as part of Business Programming I at Flinders Uni.
-      <br>I’ve used VB/VBA extensively albeit self taught. But as part of Programming 1,
-      <br>I did study Java which like VB is also an OOP. After all how many different constructs can there be for an If/Then/Else statement.
-      <br>I’m also very familiar with Microsoft Access.
-      <br>
-      <br>What is left that I need for this job?
-      <br>
-      <br>All the requirements in the “Your Attributes” are import skills but the descriptions are fairly generic to all job advertisements.
-      <br>ie good communication skills, can work in teams, can work under pressure etc. etc.
-      <br>I worked at ZZZ for over 30 years, many in a management role. I think I can assume I have these skills.
-      <br>
-      <br>The “General Responsibilities” seem to be a repeat of the “Technical Skills Required”. So what is left to consider is the “Technical Skills Required”
-      <br>
-      <br>I need more knowledge in the SQL Server area. When I pass COSC2196 Introduction to IT I will have all the prerequisites to enrol in CPT140 Database Concepts.
-      <br>This subject will boost my skill sets in that area. There are also commercial sites (non academic) that sell expensive courses that teach areas such as SQL Server.
-      <br>I could investigate these. For example: www.udemy.com has SQL Server Integration Services (SSIS) - An Introduction, for under AUS$25.
-    </p>
-  </body>
 
-  <body>
-    <p id="Section_04">
-    <h2>A bit more about myself, but deeper. 3 Profile tests</h2>
-    <p title ="Section five text!" style="color:black;">
+<!-- Fourth Grid: Interest in IT and Job -->
+<div class="w3-row" id="profile">
+  <!--<div class="w3-half w3-light-grey w3-left" style="min-height:600px" id="work">-->
+  <div class="w3-half w3-yellow w3-center" style="height:1000px">
+    <div class="w3-padding-64">
+      <h1>Personal Profile</h1>
+    </div>
+    <div class="w3-padding-64">
 
-      I recently <s>subjected</s> submitted myself to 3 “tests” to discover what sort of person I am deep down.
-      <br>Theses tests were a) The Myers-Briggs1 test[3], b) A Learning Style2 test[4] and c) An IQ3 test[5].
-      <br>The results of are as follows:
-
-      <br><br><u>Myers-Briggs test.</u>
-
-      <TABLE BORDER>
+      <p>I’m mature and well rounded with knowledge about a lot of subjects.
+      I’m most likely not going to be at my best as the leader but I am a person who will learn
+      quickly and get the job done.
+      Further it will be done without histrionics and fanfares.
+      Generally a pat on the back and a ‘well done’ will suffice.<p>
+        <br><br>
+      <p><u>A recent result from a Myers-Briggs test.</u><p>
+      <table class="w3-table">
         <tr>
           <th> </th>
           <th> </th>
           <th> </th>
         </tr>
-        <tr>
-          <td>Type</td>
+        <tr class="w3-white">
+          <td>Type:</td>
           <td>Turbulent Adventurer</td>
           <td> </td>
         </tr>
         <tr>
-          <td>Code</td>
+          <td>Code:</td>
           <td>ISFP-T</td>
           <td> </td>
         </tr>
-        <tr>
-          <td>Trait</td>
+        <tr class="w3-white">
+          <td>Traits:</td>
           <td>Introverted</td>
           <td>62%</td>
         </tr>
@@ -225,7 +287,7 @@
           <td>Observant</td>
           <td>64%</td>
         </tr>
-        <tr>
+        <tr class="w3-white">
           <td> </td>
           <td>Feeling</td>
           <td>51%</td>
@@ -235,328 +297,53 @@
           <td>Prospecting</td>
           <td>52%</td>
         </tr>
-        <tr>
+        <tr class="w3-white">
           <td> </td>
-          <td>Turbulant</td>
+          <td>Turbulent</td>
           <td>68%</td>
         </tr>
-        <tr>
-          <td>Role</td>
+        <tr >
+          <td>Role:</td>
           <td>Explorer</td>
           <td> </td>
         </tr>
-        <tr>
+        <tr class="w3-white">
           <td>Strategy</td>
           <td>Constant Improvement</td>
           <td> </td>
         </tr>
       </table>
 
-      <br>This test suggest that on the continuum of Shyness to Outgoing I’m definitely on the shyness side.
-      <br>This comes as no real surprise but the degree of introversion does. In the strengths section (not reprinted here) it suggests
-      <br>I’m ‘artistic’. I disagree with this. As stated above I preferred Science to Arts subjects.
-      <br>In the weaknesses section it says I’m very competitive. I disagree with that.
-      <br>Most of the other strengths and weaknesses seem to be around the mark.
+    </div>
+  </div>
 
-      <br><br><u>Learning Style test.</u>
-      <TABLE BORDER>
-        <tr>
-          <th> </th>
-          <th> </th>
-          <th> </th>
-        </tr>
-      <tr>
-        <td>Auditory</td>
-        <td>25%</td>
-      </tr>
-      <tr>
-        <td>Visual</td>
-        <td>35%</td>
-      </tr>
-      <tr>
-        <td>Tactile</td>
-        <td>C40%</td>
-      </tr>
-    </table>
+  <div class="w3-half w3-teal w3-container" style="height:1000px">
+    <div class="w3-padding-64 w3-padding-large">
+      <h1>Contact</h1>
+      <p class="w3-opacity">GET IN TOUCH</p>
+      <form class="w3-container w3-card w3-padding-32 w3-white" action="/action_page.php" target="_blank">
+        <div class="w3-section">
+          <label>Name</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Name">
+        </div>
+        <div class="w3-section">
+          <label>Email</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Email">
+        </div>
+        <div class="w3-section">
+          <label>Message</label>
+          <input class="w3-input" style="width:100%;" type="text" required name="Message">
+        </div>
+        <button type="submit" class="w3-button w3-teal w3-right">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
 
-      <br>This is consistent with my understanding of me. If a verbal explanation continues too long I ‘turn off’ and like to do it myself.
-      <br>I learn best by doing.
+    <!-- Footer -->
+    <footer class="w3-container w3-black w3-padding-16">
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </footer>
 
-      <br><br><u>IQ Test</u>
-      IQ score 	between 105 and 120. This equals a higher vocational education or university level.
-
-      <br>I’m not sure what I thought the result would be. If it was less than 100, I would certainly question the test.
-      <br>
-      <br>It’s ironic that the results from the 3 tests suggest I should not be a team leader when my most enjoyable and productive period at ZZZ
-      <br>was when I was Manager of the Finance IT team. The best I can do to reconcile this is that I was passionate about computers and especially programming.
-      <br>
-      <br>In forming teams, all members have differing skill sets, and it’s the mix of these that make good teams.
-      <br>The more passionate the members are the better the team performs. But this most likely wont happen automatically.
-      <br>It needs a leader aware of the qualities and to choose them appropriately.
-	    <br>‘Every individual doesn’t have to possess superlative technical and social skills,
-	    <br>but the team overall needs a healthy dose of both (Martin & Mortensen)’[6]
-
-    </p>
-  </body>
-
-  <body>
-    <p id="Section_05">
-    <h2>My Project Idea. (or how to change the world)</h2>
-    <p title ="Section six text!" style="color:black;"> </p>
-
-    <br><br><u>Overview:</u>
-    <br>Create a simple BINGO game. My machine will in it’s simplest form will be a random number generator. But it will have a few of buttons,
-    <br>screen(s) and LED’s to display other data and machine status.
-    <br>Further, the machine will be able to display previously chosen numbers to check the correctness of the bingo card.
-    <br>When a random number is selected a display will show the nickname of the number or some interesting fact or tradition about the number.
-    <br>For example “Legs Eleven”. The machine will also have a primitive menu.
-
-    <br><br><u>Motivation:</u>
-    <br>A lot of clubs run Bingo Nights using old electro-mechanical machines containing up to 90 table tennis balls each printed with a unique number.
-    <br>The machine uses suction to draw the ball out of the machine. Before any Bingo Night quite a few minutes are spent checking that all the balls are present.
-    <br>Over time the balls get lost or trodden on. This problem is often discovered 5 minutes before the game starts and its often too late.
-    <br>The machine gets worn and the suction of the balls out of the machine becomes strained. It has a motor that often needs repairs.
-    <br>Another problem is that the Bingo machines usually need an extension cord and these spread out on the floor, which in these days of OH&S is not acceptable.
-    <br>Also the machines are often very noisey.
-
-    <br><br><u>Description:</u>
-    <br>My machine will be based around an Arduino board which can be powered by a USB connector, or by a 9V Battery through a barrel jack.
-    <br>No more extension cords on the floor. The machine will have two modes; Game Mode and Checking Mode.
-    <br>Pressing a button will switch the machine between these two modes.
-
-    <p style="margin-left:5%">
-    <br><br><u>Game Mode</u>
-    <br>The size of a bingo card in Australia is 1 to 90, so the software will select a random number between these values (inclusive).
-    <br>Initially these maximum and minimum numbers will be specified in the program. Pressing the new number button will cause the software to choose a random number using Arduino’s random() function.
-    <br>It checks to see if that number has already been chosen. If it has, it will select a new number,
-    <br>If it hasn’t it will display the new number on an LED display and record that the number has now been chosen.
-    <br>It will also increase and display the cumulative numbers selected. Knowing how many numbers have been called or selected is important because bonuses are sometimes paid if a winner achieves a winning card in a nominated number of numbers.
-    <br>The machine will also display various nicknames associated with Bingo numbers like “Legs 11” or “Cup of Tea” (Number 3), or if no nickname exists an interesting fact about that number.
-    <br>These facts will initially be contained withing the program. This will give the ‘caller’ something to talk about while players mark their card.
-    <br>The process of selecting random numbers will repeat until a player has a complete card. The operator then switches the machine to ‘Checking Mode’
-
-    <br><br><u>Checking Mode.</u>
-    <br>All numbers on the winning card are entered via the keypad The machine will check each number to see if has been ‘called’.
-    <br>If it hasn’t been called then the card is incorrect and the machine can be switched back to ‘Game Mode’ and normal game play can continue.
-    <br>If the card is correct a new game can be started.
-    </p>
-    <br>
-    <br>Additionally the machine will have a dice mode. That is, it will select a random number between one and 6(inclusive).
-    <br>The operator will have the option of simulating one or two die. This can be used as a fun way to play Backgammon or board games like Monopoly.
-    <br>For one thing dice will not go all over the place after being thrown.
-
-    <br>All parts used in the project are readily available at most electronics shops or online, and are relatively cheap.
-    <br>The retail cost of the major parts are as follows[7]: (wholesale prices and bulk buying would bring some of these prices down)
-    <br>
-    <IMG SRC="IMG_9077.jpg" HEIGHT=250 WIDTH=250 ALT="moi" align="left">
-
-    <TABLE BORDER>
-      <tr>
-        <th> </th>
-        <th> </th>
-        <th> </th>
-      </tr>
-    <tr>
-      <td>Arduino Uno Clone</td>
-      <td>$15</td>
-    </tr>
-    <tr>
-      <td>LCD1602 (inc I2C)</td>
-      <td>$6</td>
-    </tr>
-    <tr>
-      <td>4 digit 7 segment LCD</td>
-      <td>$5</td>
-    </tr>
-    <tr>
-      <td>LED Bar Graph</td>
-      <td>$3</td>
-    </tr>
-    <tr>
-      <td>Keypad</td>
-      <td>$4</td>
-    </tr>
-    <tr>
-      <td>Jiffy Box [8]</td>
-      <td>$5</td>
-    </tr>
-    <tr>
-      <td>Various jumper LED (say)</td>
-      <td>$5</td>
-    </tr>
-    <tr>
-      <td>Total</td>
-      <td>$43</td>
-    </tr>
-    </table>
-
-    <br>If an Arduino Nano is used instead of a Uno the total material cost could be reduced by $8.
-    <br>But the nano may not have enough pins.
-    <br>
-    <br>Optional Extra’s:
-    <br>Infrared Remote			$ 2 (Deluxe Machine only)
-    <br>Breadboard & power supply	$ 2 (Prototype only)
-
-    <div style="clear: both;"></div>
-
-    <br><br><u>Tools and Technologies</u>
-    <br>The machine is an Arduino board communicating with a number of sensors. The “Menu” display will be on an LCD 1602. (2 lines of 16 characters each).
-    <br>The random number(s) will be displayed on 4 digit 7 segment display. While the machine is calculating a random number the progress will be shown on an LED Bar Graph.
-    <br>Buttons, buzzers and LED’s will display the machine status. A Keypad will be used for entering numbers during the checking mode. The final product will be housed in a self contain box.
-    <br>Software will be written from scratch but should consist of 2 parts a) Random Number generation  (Bingo and Die) and b) Sensor Control.
-    <br>Code for handling of sensors are readily available on the net so most of the programming will be concerned with the random number generation and recording.
-    <br>As an option the machine could be sold in 2 versions. The base model described above and the deluxe model with an Infrared Remote to could control operations.
-
-    <br>Skills Required:
-    <br>The two principal skills required during the manufacturing phase are a) an 	understanding of electronics and b) computer programming skills.
-
-    <br><br><u>An understanding of electronics</u>
-    <br>The first part of the project will be the schematic design and being able to draw this is essential. Knowledge of the components and their limitations is also important.
-    <br>Once the schematic is complete, prototyping then going straight to board design and building is the next step. Reading the schematic and soldering are the dominant skill
-
-    <br><br><u>Computer programming skills.</u>
-    <br>Initially writing or designing an algorithm then writing the Arduino program(s) (or sketches). These programs are written in C++.
-    <br>So knowledge of the Object-oriented programming is essential
-
-    <br>Other skills would include Writing of Documentation (Operators Manual etc) and testing of the machine. These 2 would normally be in an iterative process.
-    <br>After manufacture it’s up to the Sales department to determining what the market will pay and then sell the machine for a profit.
-
-  </p>
-  </body>
-
-  <body>
-    <p id="Section_06">
-    <h2>To summarise me</h2>
-    <p title ="Section seven text!" style="color:black;">
-
-      <br>I think I’m a mature and well rounded person who has knowledge about a lot of subjects.
-      <br>In terms of teams I’m most likely not going to be at my best as the leader but I am a person who will learn quickly and get the job done.
-      <br>Further it will be done without histrionics and fanfares. Generally a pat on the back and a ‘well done’ will suffice.
-      <br>I would be prepared to lead a team if it’s concerned with subjects that I love. Like most people,
-      <br>I will be a better team member when working on a project subject that I enjoy.
-      <br>
-      <p style="color:red;font-size:30px;">“Perhaps my ideal job would be to manage Swindon Town Football Club”
-      <br> </p>
-
-
-    </p>
-  </body>
-
-  <body>
-    <p id="Appendix">
-    <h2>Appendix</h2>
-    <br>
-    The following ideal job advertisement was downloaded from “indeed.com”
-
-    <h3>My Ideal Position:[9]</h3>
-
-    <h4>SQL Analyst Programmer (Full-Time)</h4>
-    <h4>Results Direct Pty Ltd - Melbourne VIC</h4>
-    <h4>$75,000 - $90,000 a year</h4>
-
-    Urgently hiring
-    <p style="margin-left:5%">
-        • Immediate start
-        <br>• Permanent, Full Time position
-        <br>• Diverse role in a fast-pace environment
-        <br>• South Eastern suburbs
-      </p>
-    <br>Results Direct Pty Ltd is a data driven digital solutions company located in the South Eastern suburbs of Melbourne.
-    <br>We transform businesses with our digital solutions which automate business processes, drive customer engagement and maximise ROI.
-    <br>We require an experienced and motivated person to join our Technical Services team as a SQL Analyst Programmer.
-    <br>Reporting to our Technical Lead [Technical Services] and working closely with other senior managers and staff,
-    <br>you will need to be able to communicate clearly at all levels.
-    <br>You would also have the ability to improve and maintain current processes.
-
-    <br>SQL Analyst Programmer - Key Technical Skills:
-        <p style="margin-left:5%">
-        <br>• Expert knowledge of Microsoft relational databases (MS Access - optional) and (SQL Server 2008, 2016, 2019 - mandatory).
-        <br>• SQL Server Knowledge (at least 3 years) Including: SSIS, (mandatory) SSRS, (mandatory) SSAS (optional).
-        <br>• Knowledge of TSQL.
-        <br>• Good DBA skills
-        <br>• Data manipulation.
-        <br>• De-duplication of data.
-        <br>• VB and VBA Programming (minimum 2 years).
-        <br>• Proven analysis and documentation skills.
-        <br>• Technical knowledge for Microsoft products (Desirable)
-        <br>• Ability to communicate effectively with technical and non-technical entities.
-        <br>• Experience working in a structured development environment, including incident management, version control, workshops and formal release.
-      </p>
-    <br>General Responsibilities:
-        <p style="margin-left:5%">
-        <br>• Translate business requirements to technical designs.
-        <br>• Design effective solutions.
-        <br>• Developing applications using SQL Server 2016 (at least 3 years).
-        <br>• Processing database requests and extracting and manipulating information for various purposes, e.g. mailing house.
-        <br>• Develop VBA Code.
-        <br>• Create Stored Procedures.
-        <br>• Create SSIS, SSRS, SSAS scripts
-        <br>• Some manual cleansing of data prior to loading.
-        <br>• De-duplication of data.
-        <br>• Generate accurate statistical reports as required on a daily, weekly, monthly, quarterly and ad hoc basis.
-        <br>• Test solutions.
-        <br>• Liaise with Account Managers as required.
-        <br>• Problem analysis / fault finding / troubleshooting.
-        <br>• Participate in incident analysis and problem remediation activities.
-        <br>• Ensure all IT tasks are completed accurately and on time.
-        <br>• Document solutions.
-        <br>• Participate in release management activities.
-        <br>• Operate in-house applications.
-      </p>
-    <br>Your Attributes:
-        <p style="margin-left:5%">
-        <br>• Confident communicator of the English language (both written and verbal).
-        <br>• Proactive in meeting client needs.
-        <br>• Maintain excellent following up skills for both client and staff.
-        <br>• An attitude of wanting to get things done.
-        <br>. High attention to detail.
-        <br>• Friendly personality.
-        <br>• Team Player.
-        <br>• Resilience to work in a fast paced/results-oriented environment.
-      </p>
-    <br>We are looking for a SQL Analyst Programmer with good problem solving and communication skills,
-    <br>high attention to detail and the ability to exercise initiative to deliver client expectations.
-    <br>You are a person who thrives in a results-based environment where you hold accountability for the delivery of complex projects.
-    <br>The role requires that you have a strong focus in delivering solutions to the business.
-    <br>Having a computer science degree is preferable but not necessary.
-    <br>This is a great opportunity to further your SQL Analyst Programmer skills.
-
-    <br>Our Culture Code:
-    <br>We know we need a great culture to attract talent.This is our code: We thrive on simplicity.
-    <br>We are problem solvers. We go the extra mile for our customers. We are agile and are encouraged to seek inventive and new ways to do things.
-
-    <br>Is this you? If you believe you have the above skills and experience, do send in your application.
-
-    <br>Please note: The salary on offer includes Super.
-
-    <br>Looking forward to receiving your CV.
-    <br>
-    <br>Job Type: Full-time
-    <br>Salary: $75,000.00 – $90,000.00 per year
-    <br>Work Remotely:
-    <p style="margin-left:5%">
-        • No
-      </p>
-
-  <body>
-    <p id="References">
-    <h2>References</h2>
-    <p title ="Section eight text!" style="color:black;">
-
-  <br>[1] "Swindon Town lead tributes following death of 1969 League Cup-winning goalkeeper Peter Downsborough" Abbott,B 2019
-      Copied under section ss40, 103C (“research or study”) of the Copyright Act on 15th March 2021 14:00 CST from
-      https://www.swindonadvertiser.co.uk/sport/17935850.swindon-town-lead-tributes-following-death-1969-league-cup-winning-goalkeeper-peter-downsborough/
-  <br>[2] Refer to Appendix for the complete job advertisement.
-  <br>[3] Copied on 16th March 2021 from <www.16personalities.com>
-  <br>[4] Copied on 16th March 2021 from <www.educationplanner.org>
-  <br>[5] Copied on 16th March 2021 from <www.123test.com/iq-test>
-  <br>[6] Haas M & Mortensen M 2016 The Secret of Great Teamwork, Harvard Business Review June 2016, viewed 17th March 2021.
-      <https://hbr.org/2016/06/the-secrets-of-great-teamwork>
-  <br>[7] Al prices are from various eBay advertisements viewed on 18th March 2021 from site <www.ebay.com>
-  <br>[8] This is for prototyping only. The final production version would be considerably more than this
-  <br>[9] Copied on 15th March 2021 14:00 CST from
-          https://au.indeed.com/jobs?q=programmer&vjk=93b76b357af0d7af
-        </p>
-  <br>
-  </body>
-</html>
+</body>
+</html> 
